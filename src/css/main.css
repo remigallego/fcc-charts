@@ -1,0 +1,62 @@
+.title {
+  font-size: 30px;
+
+}
+
+.tooltip {
+  width: auto;
+  height: auto;
+  background-color: lightsteelblue;
+  font-size: 15px;
+  padding: 2px;
+  color: black;
+  border: 1px solid steelblue;
+}
+
+/* GDP Chart */
+
+.svg-chart > svg {
+  background-color: white;
+  margin-top: 20px;
+  border: 0.3px solid black;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: lightblue;
+}
+
+/* Cyclism Chart */
+.svg-scatteredplot > svg {
+  background-color: white;
+  margin-top: 20px;
+  border: 0.3px solid black;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+.svg-scatteredplot > .title {
+  color: green
+}
+
+.circle {
+
+}
+.circle:hover {
+  fill: lightsteelblue;
+}
+
+.name {
+  font-size: 8px
+}
+
+foreignObject > .flag-icon {
+  width: 8px;
+  height: 8px;
+}
+
+body {
+  background-color: #ebf6f9;
+}
